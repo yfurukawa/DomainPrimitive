@@ -8,6 +8,7 @@
 #ifndef Distance_h
 #define Distance_h
 
-#include "Meter.h"  // メータ[m]
+#include "Meter.h"      // メータ[m]
+#include "Kirometer.h"  // キロメータ[km]
 
 #endif /* Distance_h */
