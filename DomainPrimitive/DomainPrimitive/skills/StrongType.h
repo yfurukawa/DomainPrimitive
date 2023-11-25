@@ -11,6 +11,10 @@
 
 #include <utility>
 #include "Addable.h"
+#include "Subtractable.h"
+#include "Multipliable.h"
+#include "Dividable.h"
+
 #include "Printable.h"
 #include "Swappable.h"
 
