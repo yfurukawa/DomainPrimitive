@@ -15,6 +15,8 @@
 #include "Multipliable.h"
 #include "Dividable.h"
 
+#include "MultipliableWithNumber.h"
+
 #include "Printable.h"
 #include "Swappable.h"
 

@@ -12,6 +12,6 @@
 
 template< typename T >
 using Meter =
-    StrongType<T, struct MeterTag, Addable, Subtractable, Multipliable, Dividable, Printable, Swappable>;
+    StrongType<T, struct MeterTag, Addable, Subtractable, Multipliable, MultipliableWithNumber, Dividable, Printable, Swappable>;
 
 #endif /* Meter_h */

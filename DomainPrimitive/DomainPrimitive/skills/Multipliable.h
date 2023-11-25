@@ -19,5 +19,7 @@ struct Multipliable
     friend Derived operator*( Derived const& lhs, Derived const& rhs ) {
         return Derived{ lhs.get() * rhs.get() };
     }
+
 };
+
 #endif /* Multipliable_h */
