@@ -12,6 +12,7 @@
 #include <utility>
 #include "Addable.h"
 #include "Printable.h"
+#include "Swappable.h"
 
 template< typename T, typename Tag, template<typename> class... Skills >
 struct StrongType : private Skills< StrongType<T, Tag, Skills...> >...
