@@ -10,8 +10,10 @@
 #define StrongType_h
 
 #include <utility>
+#include "Addable.h"
+#include "Printable.h"
 
-ttemplate< typename T, typename Tag, template<typename> class... Skills >
+template< typename T, typename Tag, template<typename> class... Skills >
 struct StrongType : private Skills< StrongType<T, Tag, Skills...> >...
 {
 public:
