@@ -6,9 +6,12 @@
 //
 
 #include <iostream>
+#include "units/Distance.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    auto m1 = Meter<long>{ 10 };
+    auto m2 = Meter<long>{ 20 };
+    std::cout << m1 + m2 << std::endl;
+    
+    return EXIT_SUCCESS;
 }
