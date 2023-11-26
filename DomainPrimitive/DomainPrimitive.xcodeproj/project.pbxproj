@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921827662B136674002750DA /* CurrentAltitude.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921827642B136674002750DA /* CurrentAltitude.cpp */; };
+		9218276A2B136F42002750DA /* TargetAltitude.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921827692B136F41002750DA /* TargetAltitude.cpp */; };
+		9218276C2B1374FE002750DA /* Aircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9218276B2B1374FE002750DA /* Aircraft.cpp */; };
 		92D20B772B11F3A200F7DAFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92D20B762B11F3A200F7DAFB /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +26,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		921827642B136674002750DA /* CurrentAltitude.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CurrentAltitude.cpp; sourceTree = "<group>"; };
+		921827672B1366E7002750DA /* CurrentAltitude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentAltitude.h; sourceTree = "<group>"; };
+		921827682B136F15002750DA /* TargetAltitude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetAltitude.h; sourceTree = "<group>"; };
+		921827692B136F41002750DA /* TargetAltitude.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TargetAltitude.cpp; sourceTree = "<group>"; };
+		9218276B2B1374FE002750DA /* Aircraft.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Aircraft.cpp; sourceTree = "<group>"; };
+		9218276D2B137514002750DA /* Aircraft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aircraft.h; sourceTree = "<group>"; };
 		92D20B732B11F3A200F7DAFB /* DomainPrimitive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DomainPrimitive; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D20B762B11F3A200F7DAFB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		92D20B7D2B120F5E00F7DAFB /* StrongType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrongType.h; path = skills/StrongType.h; sourceTree = "<group>"; };
+		92D20B7E2B120FF300F7DAFB /* Addable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Addable.h; path = skills/Addable.h; sourceTree = "<group>"; };
+		92D20B7F2B12122400F7DAFB /* Printable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Printable.h; path = skills/Printable.h; sourceTree = "<group>"; };
+		92D20B802B12139300F7DAFB /* Distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Distance.h; path = units/Distance.h; sourceTree = "<group>"; };
+		92D20B812B1213B300F7DAFB /* Meter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Meter.h; path = units/Meter.h; sourceTree = "<group>"; };
+		92D20B822B121D3E00F7DAFB /* Swappable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Swappable.h; path = skills/Swappable.h; sourceTree = "<group>"; };
+		92D20B832B1223E400F7DAFB /* Kirometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Kirometer.h; path = units/Kirometer.h; sourceTree = "<group>"; };
+		92D20B842B12264E00F7DAFB /* Feet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Feet.h; path = units/Feet.h; sourceTree = "<group>"; };
+		92D20B852B12268A00F7DAFB /* NM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NM.h; path = units/NM.h; sourceTree = "<group>"; };
+		92D20B862B1226CD00F7DAFB /* Mile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mile.h; path = units/Mile.h; sourceTree = "<group>"; };
+		92D20B872B12286100F7DAFB /* Subtractable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Subtractable.h; path = skills/Subtractable.h; sourceTree = "<group>"; };
+		92D20B892B12295B00F7DAFB /* Multipliable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Multipliable.h; path = skills/Multipliable.h; sourceTree = "<group>"; };
+		92D20B8A2B12299500F7DAFB /* Dividable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Dividable.h; path = skills/Dividable.h; sourceTree = "<group>"; };
+		92D20B8B2B12304400F7DAFB /* MultipliableWithNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultipliableWithNumber.h; path = skills/MultipliableWithNumber.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,25 @@
 			children = (
 				92D20B7D2B120F5E00F7DAFB /* StrongType.h */,
 				92D20B762B11F3A200F7DAFB /* main.cpp */,
+				92D20B7E2B120FF300F7DAFB /* Addable.h */,
+				92D20B7F2B12122400F7DAFB /* Printable.h */,
+				92D20B802B12139300F7DAFB /* Distance.h */,
+				92D20B812B1213B300F7DAFB /* Meter.h */,
+				92D20B822B121D3E00F7DAFB /* Swappable.h */,
+				92D20B832B1223E400F7DAFB /* Kirometer.h */,
+				92D20B842B12264E00F7DAFB /* Feet.h */,
+				92D20B852B12268A00F7DAFB /* NM.h */,
+				92D20B862B1226CD00F7DAFB /* Mile.h */,
+				92D20B872B12286100F7DAFB /* Subtractable.h */,
+				92D20B892B12295B00F7DAFB /* Multipliable.h */,
+				92D20B8A2B12299500F7DAFB /* Dividable.h */,
+				92D20B8B2B12304400F7DAFB /* MultipliableWithNumber.h */,
+				921827642B136674002750DA /* CurrentAltitude.cpp */,
+				921827672B1366E7002750DA /* CurrentAltitude.h */,
+				921827682B136F15002750DA /* TargetAltitude.h */,
+				921827692B136F41002750DA /* TargetAltitude.cpp */,
+				9218276B2B1374FE002750DA /* Aircraft.cpp */,
+				9218276D2B137514002750DA /* Aircraft.h */,
 			);
 			path = DomainPrimitive;
 			sourceTree = "<group>";
@@ -122,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D20B772B11F3A200F7DAFB /* main.cpp in Sources */,
+				9218276C2B1374FE002750DA /* Aircraft.cpp in Sources */,
+				921827662B136674002750DA /* CurrentAltitude.cpp in Sources */,
+				9218276A2B136F42002750DA /* TargetAltitude.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
