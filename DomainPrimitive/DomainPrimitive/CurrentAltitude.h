@@ -17,10 +17,10 @@ public:
     explicit CurrentAltitude( double altitude );
     ~CurrentAltitude() = default;
     
-    Feet<double> getAltitude();
+    Feet<double> getAltitude() const;
 private:
-    double altitudeMin_;
-    double altitudeMax_;
+    const double altitudeMin_;
+    const double altitudeMax_;
     Feet<double> altitude_;
 };
 
