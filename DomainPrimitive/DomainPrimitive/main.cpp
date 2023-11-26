@@ -8,6 +8,7 @@
 #include <iostream>
 #include "units/Distance.h"
 #include "CurrentAltitude.h"
+#include "Aircraft.h"
 
 int main(int argc, const char * argv[]) {
     auto m1 = Meter<double>{ 10 };
@@ -24,6 +25,10 @@ int main(int argc, const char * argv[]) {
 
     CurrentAltitude altitude(555);
     std::cout << altitude.getAltitude() << std::endl;
+    
+    Aircraft aircraft(0, 3000);
+    std::cout << aircraft.currentAltitude().getAltitude() << std::endl;
+    
     return EXIT_SUCCESS;
 }
 
