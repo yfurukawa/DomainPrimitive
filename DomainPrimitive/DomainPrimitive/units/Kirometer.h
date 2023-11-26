@@ -8,6 +8,8 @@
 #ifndef Kirometer_h
 #define Kirometer_h
 
+#include "../skills/StrongType.h"
+
 template< typename T >
 using Kirometer =
     StrongType<T, struct KirometerTag, Addable, Printable, Swappable>;

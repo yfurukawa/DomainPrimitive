@@ -8,6 +8,8 @@
 #ifndef NM_h
 #define NM_h
 
+#include "../skills/StrongType.h"
+
 template< typename T >
 using NM =
     StrongType<T, struct NMTag, Addable, Printable>;

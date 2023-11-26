@@ -8,6 +8,8 @@
 #ifndef Mile_h
 #define Mile_h
 
+#include "../skills/StrongType.h"
+
 template< typename T >
 using Mile =
     StrongType<T, struct MileTag, Addable, Printable>;
