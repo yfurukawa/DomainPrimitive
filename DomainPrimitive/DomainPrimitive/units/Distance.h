@@ -10,5 +10,8 @@
 
 #include "Meter.h"      // メータ[m]
 #include "Kirometer.h"  // キロメータ[km]
+#include "Feet.h"       //　フィート[ft]
+#include "Mile.h"       //　マイル[mile]
+#include "NM.h"         //　海里（ノーティカルマイル）[NM]
 
 #endif /* Distance_h */
